@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nathanbirch/cse341-apiCourse-code.git"
+    "url": "git+https://github.com/Mayaiskool5/CSE341-mwedel.git"
   },
-  "author": "Nathan Birch",
+  "author": "Mariah Wedel",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/nathanbirch/cse341-apiCourse-code/issues"
+    "url": "https://github.com/Mayaiskool5/CSE341-mwedel/issues"
   },
-  "homepage": "https://github.com/nathanbirch/cse341-apiCourse-code#readme",
+  "homepage": "https://github.com/Mayaiskool5/CSE341-mwedel#readme",
   "dependencies": {
     "express": "^4.17.3"
   },
