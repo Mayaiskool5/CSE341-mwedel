@@ -19,7 +19,8 @@
   "homepage": "https://github.com/Mayaiskool5/CSE341-mwedel#readme",
   "dependencies": {
     "dotenv": "^17.4.2",
-    "express": "^4.17.3"
+    "express": "^4.17.3",
+    "mongodb": "^7.2.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.22"
