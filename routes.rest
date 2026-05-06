@@ -1,0 +1,9 @@
+// LOCALHOST
+### Get all contacts
+GET http://localhost:8080/contacts
+
+// PRODUCTION Deploy
+
+### Get contact by ID
+# Replace the ID with an actual contact ID from your database RENDER
+GET http://localhost:8080/contacts/651234567890abcdef123456

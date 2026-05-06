@@ -1,0 +1,23 @@
+{
+  "contact": {
+    "firstName": "Derek",
+    "lastName": "Wedel",
+    "email": "redhot@test.com",
+    "favoriteColor": "Red",
+    "birthday": "09/28/95"
+  },
+  "contact2": {
+    "firstName": "Ashton",
+    "lastName": "Wedel",
+    "email": "prettywomenroutes@test.com",
+    "favoriteColor": "Purple",
+    "birthday": "07/31/96"
+  },
+  "contact3": {
+    "firstName": "Austin",
+    "lastName": "Wedel",
+    "email": "wedelsthebest@test.com",
+    "favoriteColor": "Orange",
+    "birthday": "04/25/93"
+  }
+}

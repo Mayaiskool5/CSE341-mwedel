@@ -1,12 +1,11 @@
 {
-  "name": "cse341-apicourse-code",
+  "name": "rest-practice",
   "version": "1.0.0",
-  "description": "code to give to students for the cse341 course",
+  "description": "",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "devStart": "nodemon server.js",
-    "start": "node server.js"
+    "start": "nodemon server.js"
   },
   "repository": {
     "type": "git",
