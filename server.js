@@ -20,8 +20,10 @@ app
 console.log('Before initializing MongoDB connection...');
 
 mongodb.initDb((err, mongodb) => {
+  console.log('Entered mongodb.initDb callback');
   if (err) {
-    console.log(err);
+    console.error('Failed to connect to MongoDB:', err);
+    process.exit(1);
   } else {
     app.listen(port);
     console.log(`Connected to DB and listening on ${port}`);
