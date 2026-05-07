@@ -7,6 +7,8 @@ const app = express();
 
 require('dotenv').config();
 
+console.log('Starting server.js...');
+
 app
   .use(bodyParser.json())
   .use((req, res, next) => {
@@ -14,6 +16,8 @@ app
     next();
   })
   .use('/', require('./routes'));
+
+console.log('Before initializing MongoDB connection...');
 
 mongodb.initDb((err, mongodb) => {
   if (err) {
@@ -23,3 +27,5 @@ mongodb.initDb((err, mongodb) => {
     console.log(`Connected to DB and listening on ${port}`);
   }
 });
+
+console.log('After calling mongodb.initDb (this should print immediately if not blocked)');
