@@ -3,11 +3,13 @@ POST http://localhost:8080/contacts HTTP/1.1
 content-type: application/json
 
 {
-    "firstName":"Kayana",
-    "lastName":"Reeder",
-    "email":"kReed@test.com",
-    "favoriteColor":"Mauve",
-    "birthday":"05/17/2001"
+  "contact3": {
+    "firstName": "Austin",
+    "lastName": "Wedel",
+    "email": "wedelsthebest@test.com",
+    "favoriteColor": "Orange",
+    "birthday": "04/25/93"
+  }
 }
 
 ### Update contact (Replace ID with a real one)
