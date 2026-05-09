@@ -1,0 +1,26 @@
+### Create contact
+POST http://localhost:8080/contacts HTTP/1.1
+content-type: application/json
+
+{
+    "firstName":"Kayana",
+    "lastName":"Reeder",
+    "email":"kReed@test.com",
+    "favoriteColor":"Mauve",
+    "birthday":"05/17/2001"
+}
+
+### Update contact (Replace ID with a real one)
+PUT http://localhost:8080/contacts/645123abc456def789012345 HTTP/1.1
+content-type: application/json
+
+{
+    "firstName":"Derek",
+    "lastName":"Wedel",
+    "email":"derekW@test.com",
+    "favoriteColor":"Burgundy",
+    "birthday":"09/28/1995"
+}
+
+### Delete contact (Replace ID with a real one)
+DELETE http://localhost:8080/contacts/645123abc456def789012345 HTTP/1.1
